@@ -7,13 +7,13 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "28178139"))
+API_ID = int(getenv("API_ID", "21767752"))
 
-API_HASH = getenv("API_HASH", "85172511f45230b7f8bb304f5ed8e6d8")
+API_HASH = getenv("API_HASH", "8817c95b20fca899462336cdf36dd958")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lucky:RajaOp@atlascluster.f7lck9c.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Lucky:RajaOp@atlascluster.f7lck9c.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1001764180763"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001963452122"))
 
 OWNER_ID = int(getenv("OWNER_ID", "5247304559"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "LuckyXMusic_Bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Miss_Muskan_Bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ZXCVBNMASDFGHJKLQWERTYUIOP0786/LuckyXMusic",
+    "https://github.com/L2LUCKY/NEW",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Badnam_Mohabbat")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+WDNH4yTCWe5jOTI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Luckyxupdate")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/LuckyxSupport")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @Shsusu_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQFMJkgAVFmWmIwHRhD25PtGxf2lad9sjH9WMMT_eDk_3w-4qdcywld2QeRVk_ALKHErqaOCDR3S91uD6RK89HeJA90fFsve8QI0Qf8hTYobtyfeR4F9fvj85T3Jo2IZd-o-LsmVMI6qoMBZhZR1brho5lBCUsNe66XqM9RgKPdjVQo42wEjdGZ8WVLv1Od-UoYrRCYodS0m5GByoQLfck2AiOlOrqG4axdpCump70zvoR6f0EGP1YpH7qogDtZM6At24RzFhTfC6Qx_yjrB26L1VG2jXJuzWM9QgAsSgdnkuFPOd-JiNmsa0ymeX87rkNj35SXT67VAVy8kQe4KkqolYkhmeQAAAAE5zUGcAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
